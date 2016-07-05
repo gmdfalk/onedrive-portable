@@ -1,6 +1,7 @@
 language: cpp
 compiler:
   - gcc
+  - clang
 sudo: required
 dist: trusty
 addons:
@@ -15,7 +16,9 @@ addons:
     - clang-3.6
 
 script:
-      - cmake . && cmake --build
+      - mkdir build
+      - cd build
+      - cmake .. && make
 
 notifications:
   email: false
