@@ -2,6 +2,6 @@
 #include "catch.hpp"
 #include "../src/main.cpp"
 
-TEST_CASE( "Hello returns 0", "[main]" ) {
+TEST_CASE( "Hello returns 0", "[Main]" ) {
     REQUIRE( Main() == 0 );
 }

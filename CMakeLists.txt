@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.3.2)
 project(onedrive_portable)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES src/main.cpp test/mainTest.cpp)
+set(SOURCE_FILES src/main.cpp) #test/mainTest.cpp)
 add_executable(onedrive_portable ${SOURCE_FILES})
