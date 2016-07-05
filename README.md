@@ -8,4 +8,8 @@
 
 ## Usage
 
+## Testing
+
+https://raw.githubusercontent.com/philsquared/Catch/master/single_include/catch.hpp
+
 [QFileSystemModel]: http://doc.qt.io/qt-5/qfilesystemmodel.html
