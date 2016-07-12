@@ -13,10 +13,10 @@ and improved when it comes to core synchronization features I think are importan
 Some goals i'd like to reach:  
 
 * Support for Windows, Linux and macOS
-* A single light and portable binary (though )
+* A single light and portable binary
 * Basic configuration options like proxy and bandwidth settings
 * Exclusions (think .gitignore, i.e. a way to completely ignore all files folders matching specified patterns)
-* Stretch: Progressive Synchronization (think odrive, i.e. only synchronize those resources we need, determined by trying to access a resource)
+* Stretch: Lazy Loading (think odrive, i.e. only synchronize those resources we need when we need them)
 * Optional: Support for multiple OneDrive accounts and/or other cloud services like Dropbox
 * Optional: Automatic application update
 
